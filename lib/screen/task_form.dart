@@ -143,6 +143,7 @@ class _FormScreenState extends State<FormScreen> {
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(content: Text("Tarefa salvar."))
                           );
+                          Navigator.pop(context);
                         }
                       },
                       style: ButtonStyle(
